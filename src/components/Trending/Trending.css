@@ -1,0 +1,15 @@
+.trending {
+    display: flex;
+    width: 200px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid #a5a4a4;
+    margin-top: 20px;
+
+
+}
+
+.heading {
+    color: rgb(42, 40, 40);
+}

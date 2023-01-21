@@ -1,0 +1,44 @@
+.post {
+    width: 400px;
+    height: 100px;
+    background-color: #fff;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.post-setup {
+    font-weight: bold;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.input-post {
+    border: 1px solid rgb(112, 111, 111);
+    border-radius: 10px;
+  
+}
+
+.post-icon {
+    margin-top: 6px;
+    color: rgb(114, 108, 108);
+}
+
+.post-btn {
+    margin: 6px 3px;
+    color: rgb(27, 27, 206);
+    font-weight: bold;
+}
+
+.post-photo {
+    display: flex;
+    justify-content: center;
+}
+
+.photo-icon {
+    margin: 17px 5px;
+}
+
+.post-photo>p {
+    font-weight: bold;
+}

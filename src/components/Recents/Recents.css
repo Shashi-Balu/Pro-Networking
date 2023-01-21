@@ -1,0 +1,13 @@
+.box-details {
+    width: 200px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid #a5a4a4;
+
+}
+
+.heading {
+    text-align: left;
+    margin-left: 5px;
+}
