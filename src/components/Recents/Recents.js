@@ -4,31 +4,34 @@ import "./Recents.css";
 const data = [
     {
         id: 1,
-        tag: "#reactjs",
+        tag: "reactjs",
     },
     {
         id: 2,
-        tag: "#programming",
+        tag: "programming",
     },
     {
         id: 3,
-        tag: "#softwareengeering",
+        tag: "softwareengeering",
     },
     {
         id: 4,
-        tag: "#softwareengeering",
+        tag: "softwareengeering",
     },
     {
         id: 5,
-        tag: "#developer",
+        tag: "developer",
     },
 ];
 
 function Recents() {
     return (
-        <div className="box-details">
-            <p className="heading">Recents</p>
-            {data.map((value) => value.tag)}
+        <div className="recents-box-details">
+            <p className="recents-heading">Recents</p>
+
+            {data.map((value) => (
+                <p className="list">#{value.tag}</p>
+            ))}
         </div>
     );
 }

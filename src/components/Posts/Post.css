@@ -1,0 +1,30 @@
+.post-card {
+    width: 400px;
+    padding: 10px 20px;
+    background-color: #fff;
+    margin-top: 50px ;
+    border-radius: 20px;
+}
+
+.post-title {
+    display: flex;
+    align-items: center; 
+}
+
+.post-text {
+    margin-left: 15px;
+}
+
+.post-text-name {
+    font-weight: 700;
+}
+
+.post-username {
+    font-size: 14px;
+    margin-top: -15px;
+    margin-left: 5px;
+}
+
+.post-tags {
+    display: flex;
+}

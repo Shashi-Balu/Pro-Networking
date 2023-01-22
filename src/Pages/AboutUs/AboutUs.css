@@ -1,0 +1,25 @@
+.about-us {
+    text-align: justify;
+    margin-left: 100px;
+    line-height: 2;
+}
+
+.about-us-title {
+    margin-top: 70px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.about-us-para {
+    width: 90%;
+    font-size: 1.3rem;
+}
+
+.about-us-btn {
+    width: 150px;
+    margin: 20px -20px;
+    background-color: transparent;
+    color: blue;
+
+    font-size: 1rem;
+}

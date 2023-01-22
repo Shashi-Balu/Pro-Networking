@@ -1,13 +1,19 @@
-.box-details {
+.recents-box-details {
     width: 200px;
     height: 300px;
     background-color: #fff;
     border-radius: 20px;
     border: 1px solid #a5a4a4;
-
+    margin-top: 20px;
 }
 
-.heading {
+.recents-heading {
     text-align: left;
-    margin-left: 5px;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+.list {
+    text-align: left;
+    margin-left: 15px;
 }

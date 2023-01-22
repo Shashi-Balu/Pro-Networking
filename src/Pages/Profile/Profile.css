@@ -1,0 +1,54 @@
+.profile-form {
+    width: 300px;
+    background-color: #fff;
+    margin: 150px 300px;
+    padding: 100px;
+    border-radius: 5px;
+}
+
+.profile-form-name {
+    margin-bottom: 30px;
+}
+
+.profile-name , .profile-email{
+    font-size: 1.2rem;
+    color: rgb(143, 141, 141);
+}
+
+.profile-form-name, .profile-form-email {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.profile-fieldset {
+    border-radius: 5px;
+    width: 300px;
+}
+
+.profile-input::placeholder {
+    font-size: 1rem;
+    font-weight: 100;
+}
+.profile-legend {
+    /* padding: 5px; */
+    text-align: left;
+}
+
+.profile-input {
+    width: 300px;
+    border: none;
+}
+
+.profile-btn-edit {
+    background-color: transparent;
+    color: blue;
+    font-size: 1.1rem;
+    font-weight: 100;
+    margin: 12px;
+
+}
+
+.profile-delete-btn {
+    margin-top: 40px;
+    width: 200px;
+}

@@ -4,11 +4,13 @@ import Navbar from "./components/Navbar/Navbar";
 import Recents from "./components/Recents/Recents";
 import Trending from "./components/Trending/Trending";
 import Posts from "./components/Posts/Posts";
+import AboutUs from "./Pages/AboutUs/AboutUs";
+import Profile from "./Pages/Profile/Profile";
 
 function App() {
     return (
         <div className="App">
-            <Navbar />
+            {/* <Navbar />
             <div className="boxes">
                 <div className="boxes-left">
                     <UserDetails />
@@ -20,7 +22,11 @@ function App() {
                 <div className="box-right">
                     <Trending />
                 </div>
-            </div>
+            </div> */}
+
+            {/* <AboutUs /> */}
+
+            <Profile />
         </div>
     );
 }

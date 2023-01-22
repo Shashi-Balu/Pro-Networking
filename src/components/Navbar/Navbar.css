@@ -8,10 +8,6 @@
     background-color: #fff;
     height: 50px;
 } */
-p  {
-    font-size: 17px;
-    font-weight: 200;
-}
 .navbar-left, .more {
     display: flex;
     align-items: center;
@@ -23,7 +19,7 @@ p  {
     border-radius: 2px;
 }
 
-input {
+.navbar-left>input {
     width: 300px;
     height: 35px;
     border: none;
@@ -38,14 +34,19 @@ input {
 .nav-options>p {
     margin-right: 40px;
     color: rgb(41, 123, 123);
+    font-size: 17px;
+    font-weight: 200;
+    cursor: pointer;
 }
 
 .more>p{
     margin-right: 10px;
     color: rgb(41, 123, 123);
+    cursor: pointer;
 }
 
 button {
+    cursor: pointer;
     width: 80px;
     height: 40px;
     border-radius: 5px;
