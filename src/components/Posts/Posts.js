@@ -6,6 +6,7 @@ import Post from "./Post";
 
 function Posts() {
     const [posts, setPosts] = useState([]);
+    const [input, setInput] = useState([]);
 
     async function callApi() {
         const response = await (await fetch("https://dummyjson.com/posts")).json();
@@ -16,13 +17,32 @@ function Posts() {
     useEffect(() => {
         callApi();
     }, []);
+
+    function addPosts() {
+        const copyArray = [...posts];
+        copyArray.unshift({
+            userId: 10,
+            name: "Shashi",
+            tags: ["HTML", "CSS"],
+            body: input,
+        });
+
+        setPosts(copyArray);
+        setInput("");
+    }
     return (
         <div>
             <div className="post">
                 <div className="post-setup">
                     <CreateIcon className="post-icon" />
-                    <input className="input-post" />
-                    <p className="post-btn">POST</p>
+                    <input
+                        className="input-post"
+                        value={input}
+                        onChange={(event) => setInput(event.target.value)}
+                    />
+                    <button className="post-btn" onClick={addPosts}>
+                        POST
+                    </button>
                 </div>
                 <div className="post-photo">
                     <InsertPhotoIcon className="photo-icon" />
@@ -36,6 +56,7 @@ function Posts() {
                     name={value.userId}
                     tags={value.tags}
                     message={value.body}
+                    likeCount={value.reactions}
                 />
             ))}
         </div>

@@ -2,7 +2,7 @@
     width: 400px;
     padding: 10px 20px;
     background-color: #fff;
-    margin-top: 50px ;
+    margin-top: 40px ;
     border-radius: 20px;
 }
 
@@ -12,6 +12,7 @@
 }
 
 .post-text {
+    
     margin-left: 15px;
 }
 
@@ -27,4 +28,34 @@
 
 .post-tags {
     display: flex;
+    margin-left: -20px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.post-photo>p {
+    font-weight: bold;
+}
+
+.post-icons {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.post-like {
+    display: flex;
+    align-items: center;
+}
+.post-like>p {
+    margin-left: 6px;
+}
+
+.post-save {
+    margin-top: 5px;
+}
+
+.post-user-img {
+    width: 5rem;
 }

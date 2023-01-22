@@ -10,7 +10,7 @@ import Profile from "./Pages/Profile/Profile";
 function App() {
     return (
         <div className="App">
-            {/* <Navbar />
+            <Navbar />
             <div className="boxes">
                 <div className="boxes-left">
                     <UserDetails />
@@ -22,11 +22,8 @@ function App() {
                 <div className="box-right">
                     <Trending />
                 </div>
-            </div> */}
-
-            {/* <AboutUs /> */}
-
-            <Profile />
+            </div>
+            {/* <AboutUs /> */}/
         </div>
     );
 }

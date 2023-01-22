@@ -2,7 +2,7 @@
     width: 440px; 
     height: 120px;
     background-color: #fff;
-    margin-bottom: 50px;
+    margin-top: 20px;
     border-radius: 20px;
 }
 
@@ -26,9 +26,10 @@
 }
 
 .post-btn {
-    margin: 6px 3px;
+    margin: 6px;
     color: rgb(27, 27, 206);
     font-weight: bold;
+    background-color: transparent;
 }
 
 .post-photo {
@@ -44,6 +45,7 @@
     margin: 17px 5px;
 }
 
-.post-photo>p {
-    font-weight: bold;
+
+.post-message {
+    text-align: left;
 }
