@@ -2,7 +2,3 @@ body {
   text-align: center;
 }
 
-.boxes {
-  display: flex;
-  justify-content: space-evenly;
-}
